@@ -8,3 +8,4 @@ def index (request):
         'message': 'nuevo mensaje desde la vista'
     })
 
+"actualizacion"
