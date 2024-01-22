@@ -1,0 +1,28 @@
+{% load bootstrap4 %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mi Página</title>
+
+    <!-- Agrega los archivos CSS de Bootstrap -->
+    {% bootstrap_css %}
+</head>
+<body>
+
+    <div class="container">
+        <h1>{{message}}</h1>
+
+        <!-- Contenido de tu página -->
+        {% block content %}
+        {% endblock %}
+
+    </div>
+
+    <!-- Agrega los archivos JS de Bootstrap (jQuery y Popper.js son necesarios) -->
+    {% bootstrap_javascript %}
+
+</body>
+</html>
