@@ -29,9 +29,14 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+<<<<<<< HEAD
 # h
 INSTALLED_APPS = [
     'bootstrap4',
+=======
+
+INSTALLED_APPS = [
+>>>>>>> 45bb346a6fa73b2f085a6a21a27f65d0b50f84e7
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -55,7 +60,11 @@ ROOT_URLCONF = 'tiendaweb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': ['templates'],
+=======
+        'DIRS': [],
+>>>>>>> 45bb346a6fa73b2f085a6a21a27f65d0b50f84e7
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -76,12 +85,17 @@ WSGI_APPLICATION = 'tiendaweb.wsgi.application'
 
 DATABASES = {
     'default': {
+<<<<<<< HEAD
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django',
         'USER': '',
         'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306',
+=======
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+>>>>>>> 45bb346a6fa73b2f085a6a21a27f65d0b50f84e7
     }
 }
 
