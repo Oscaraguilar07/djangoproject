@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# h
 INSTALLED_APPS = [
     'bootstrap4',
     'django.contrib.admin',
