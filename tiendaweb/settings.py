@@ -26,6 +26,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#prueva
+
 # Application definition
 INSTALLED_APPS = [
     'bootstrap4',
