@@ -1,0 +1,68 @@
+body {
+    padding: 20px;
+  }
+  
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+ 
+  #carouselExampleFade {
+    margin-top: 20px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: #fff;
+    background-color: #42364600;
+    border: 1px solid #c78ad600;
+  }
+  
+  .carousel-indicators li {
+    background-color: #007bff;
+  }
+  
+  .carousel-inner img {
+    width: 20%;
+    height: min-content;
+  }
+  
+  /* Estilos personalizados para tu página */
+body {
+  padding-top: 56px; /* Ajusta el contenido para dejar espacio para la barra de navegación fija */
+  background-color: #f8f9fa; /* Fondo principal */
+}
+
+.container {
+  margin-top: 20px;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+  background-color: #dc3545; /* Rojo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Ajustes para el carrusel */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Ajustes para los controles del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #6c757d; /* Gris */
+}
+
+/* Ajuste para el color de fondo de los enlaces de navegación */
+.navbar-nav .nav-link {
+  color: #6c757d; /* Gris */
+}
+
+/* Cambia el color del enlace cuando se encuentra sobre él */
+.navbar-nav .nav-link:hover {
+  color: #dc3545; /* Rojo más oscuro */
+}
