@@ -72,12 +72,8 @@ WSGI_APPLICATION = 'tiendaweb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tu_nombre_de_base_de_datos',
-        'USER': 'tu_usuario_de_mysql',
-        'PASSWORD': 'tu_contraseña_de_mysql',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
