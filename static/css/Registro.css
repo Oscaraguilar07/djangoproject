@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f8f9fa;
     color: #495057;
-    background-image: url(Registro.png);
+    background-image: "{% static 'img/Registro.png' %}";
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;
