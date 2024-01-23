@@ -7,3 +7,12 @@ def index (request):
         'message': 'wili😘😘'
     })
 
+def login_views (request):
+    return render (request,'login.html', {
+ 
+    })
+    
+def registro_views (request):
+    return render (request,'registro.html', {
+ 
+    })
