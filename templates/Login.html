@@ -2,11 +2,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="{% static 'css/Login.css' %}">
-=======
-    <link rel="stylesheet" type="text/css" href="/static/css/Login.css">
->>>>>>> Esteban
 
 <head>
 
@@ -17,6 +13,15 @@
 
 </head>
 <body>
+    <div class="container">
+        {% if messages %}
+        {% for messages in messages %}
+        {%%}
+        <div class="alert">
+            {{messages}}
+        </div>    
+        {% endfor %}
+        {% endif %}
     <div class="cuadrado">
     <h2>Iniciar Sesión</h2>
 
