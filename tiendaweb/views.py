@@ -18,6 +18,10 @@ def registro_views (request):
         usuario = request.POST.get('usuario')
         correo = request.POST.get('correo')
         password_plano = request.POST.get('clave')
+         # Hashea la contraseña antes de guardarla en la base de datos
+        hashed_password = make_password(password_plano)
+        #mensaje de éxito
+        return HttpResponse('Usuario registrado con éxito!')
     return render (request,'registro.html', {
  
     })
