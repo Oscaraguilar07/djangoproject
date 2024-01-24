@@ -1,0 +1,50 @@
+body {
+  background-color: #f2f2f2; 
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.navbar {
+  background-color: #3498db;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff; 
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-color: #ffffff; 
+}
+
+#carouselExampleFade {
+  margin-top: 20px;
+}
+
+.card {
+  margin-top: 20px;
+  background-color: #ffffff; 
+}
+
+.card-title {
+  color: #3498db; 
+}
+
+.card-text {
+  color: #555; 
+}
+
+.btn-primary {
+  background-color: #3498db; 
+  border: none;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
+}
