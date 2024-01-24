@@ -1,0 +1,171 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electronics Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/Index.css"> 
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/templates/Registro.html">Registrate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/templates/Login.html">Inicio de sesion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/templates/Index.html">Inicio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrusel  -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <img src="/static/img/Aprovecha.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/static/img/headphone.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/static/img/Pc.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<!-- Contenido principal -->
+<div class="container mt-5">
+    <h2>Categoría: Computadores</h2>
+    <div class="row">
+        <!-- Producto 1 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="/static/Img_productos/lenovo1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Computador Portátil LENOVO 15,6" Pulgadas IdeaPad Slim 3 Táctil - Intel Core i5 - RAM 8GB - Disco SSD 512GB - Gris</h5>
+                    <p class="card-text">Procesador
+                        Intel Core I5
+                        Capacidad de Disco
+                        Estado Solido SSD 512 GB
+                        Memoria RAM
+                        8 GB.</p>
+                    <a href="#" class="btn btn-primary">Ver Detalles</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="/static/img/producto_computador_2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Computador Portátil HP 13,3" Pulgadas Be2000la AMD Ryzen 5- RAM 16GB - Disco SSD 512GB - Plateado
+                    </h5>
+                    <p class="card-text">Procesador
+                        AMD R5
+                        Capacidad de Disco
+                        Estado Solido SSD 512 GB
+                        Memoria RAM
+                        16 GB</p>
+                    <a href="#" class="btn btn-primary">Ver Detalles</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <h2 class="mt-5">Categoría: Televisores</h2>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/static/img/producto_computador_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">televisor 1</h5>
+                        <p class="card-text">Descripción del televisor.</p>
+                        <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/static/img/producto_computador_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">televiso 2</h5>
+                        <p class="card-text">Descripción del elevisor.</p>
+                        <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+    <h2 class="mt-5">Categoría: Consolas</h2>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/static/img/producto_computador_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">televisor 1</h5>
+                        <p class="card-text">Descripción del televisor.</p>
+                        <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/static/img/producto_computador_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">televiso 2</h5>
+                        <p class="card-text">Descripción del elevisor.</p>
+                        <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+</div>
+
+    <!-- Contenido principal -->
+
+
+    <h1>Lista de Productos</h1>
+    <ul>
+        {% for producto in productos %}
+            <li>{{ producto.nombre_producto}} - Precio: {{ producto.precio }}</li>
+        {% endfor %}
+    </ul>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

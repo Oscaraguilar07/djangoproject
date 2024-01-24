@@ -27,8 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-#prueva
-
 # Application definition
 INSTALLED_APPS = [
     'bootstrap4',
@@ -84,23 +82,6 @@ DATABASES = {
     }
 }
 
-"""  
- 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nombre',
-        'USER': 'usuario',
-        'PASSWORD': 'clave',
-        'HOST': 'servidor',
-        'PORT': '3306',
-    }
-}
- 
- 
-"""
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
@@ -119,7 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-    # Internationalization
+# Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
@@ -134,24 +115,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 import os
 
-<<<<<<< HEAD
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS=(
-    os.path.join(BASE_DIR,'static'),
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
 )
-=======
-<<<<<<< HEAD
-=======
-STATIC_URL = '/static/'
->>>>>>> wilson
->>>>>>> Esteban
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)

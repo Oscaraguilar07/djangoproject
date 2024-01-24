@@ -1,12 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 50px;
-    background-color: #f8f9fa;
-    background-image: url('../img/Img.png');
+    background-color: #3489df;
+    background-image: url('../img//static/img/Img.jpg');
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    
+    background-repeat:no-repeat;
+    background-size: 5000px;
 }
 
 form {
@@ -40,12 +39,11 @@ input {
 }
 
 input[type="submit"] {
-    background-color: #dc3545; 
+    background-color: #3b79ff; 
     color: white;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #c82333; 
+    background-color: #3b79ff; 
 }
-
