@@ -2,12 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 50px;
     background-color: #3489df;
-    background-image: url(/static/img/Img.jpg);
-
+    background-image: url('../img//static/img/Img.jpg');
     background-position: center center;
     background-repeat:no-repeat;
     background-size: 5000px;
-    
 }
 
 form {
@@ -49,4 +47,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #3b79ff; 
 }
-
