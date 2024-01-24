@@ -4,7 +4,11 @@ body {
     padding: 0;
     background-color: #f8f9fa;
     color: #495057;
+<<<<<<< HEAD
     background-image: url('../img/Registro.png');
+=======
+    background-image: "{% static 'img/Registro.png' %}";
+>>>>>>> josue
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;
