@@ -1,9 +1,11 @@
 from django.shortcuts import render 
 from django.shortcuts import redirect
 from django.http import HttpResponse
+
 from django.contrib import messages
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth import authenticate
+
 
 def index (request):
     return render (request,'index.html',{
@@ -39,3 +41,30 @@ def registro_views (request):
     return render (request,'registro.html', {
  
     })
+
+
+
+def mostrar_productos(request):
+    # Configura la conexión a la base de datos
+    conexion = MySQLdb.connect(
+        host='localhost',
+        user='root',
+        password='',
+        db='tienda_virtual'
+    )
+
+    # Crea un cursor para ejecutar consultas SQL
+    cursor = conexion.cursor()
+
+    # Ejecuta una consulta para obtener todos los productos
+    cursor.execute('SELECT * FROM productos')
+
+    # Obtiene todos los resultados de la consulta
+    productos = cursor.fetchall()
+
+    # Cierra la conexión
+    cursor.close()
+    conexion.close()
+
+    # Renderiza la plantilla con los productos
+    return render(request, 'index.html', {'productos': productos})

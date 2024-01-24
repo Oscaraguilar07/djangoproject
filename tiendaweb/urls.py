@@ -1,6 +1,11 @@
 from django.contrib import admin
 from django.urls import path
+
 from .views import login_views, registro_views
+
+
+
+
 from tiendaweb.views import index
 
 urlpatterns = [
