@@ -1,12 +1,12 @@
 from django.contrib import admin
 from django.urls import path
-<<<<<<< HEAD
 
 
-=======
+
+
 from . views import login_views
 from . views import registro_views
->>>>>>> wilson
+
 from tiendaweb.views import index
 
 urlpatterns = [
