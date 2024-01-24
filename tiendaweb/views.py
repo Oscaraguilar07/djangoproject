@@ -1,10 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from django.contrib.auth.hashers import make_password
 
 def index (request):
     return render (request,'index.html',{
-        'message': 'wili😘😘'
+    
     })
 
 def login_views (request):
@@ -13,6 +13,11 @@ def login_views (request):
     })
     
 def registro_views (request):
+    if request.method == 'POST':
+        
+        usuario = request.POST.get('usuario')
+        correo = request.POST.get('correo')
+        password_plano = request.POST.get('clave')
     return render (request,'registro.html', {
  
     })
